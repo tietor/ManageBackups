@@ -12,7 +12,7 @@ import java.util.zip.ZipOutputStream;
 
 public class ManageBackups {
 
-  private final static String PATH = "/home/tie/Documents/fabio/FoodApplication/Backup-Database/";
+  private final static String PATH = "/home/tie/Documents/fabio/Notenerfassungstool/Backup-Database/";
   private static String dateNow = DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now());
   private static Calendar calendar = Calendar.getInstance();
 
